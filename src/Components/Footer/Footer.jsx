@@ -15,15 +15,21 @@ const Footer = () => {
 
       <h3>Full-Stack Engineer </h3>
       <div className="footer-contact-logo">
-        <a href="https://www.linkedin.com/in/maureen-ekeugo-25139321b/">
+        <a
+          href="https://www.linkedin.com/in/maureen-ekeugo-25139321b/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={linkedin_icon} alt="" />
         </a>
 
-        <a href="https://github.com/ReadyProgramReen">
+        <a
+          href="https://github.com/ReadyProgramReen"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={github_icon} alt="" />
         </a>
-
-
       </div>
     </div>
   );

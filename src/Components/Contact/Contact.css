@@ -125,3 +125,95 @@
     color: #b923e1;
     font-weight: 600;
 }
+
+
+/* Media QUery */
+
+@media (max-width: 850px) {
+    .contact{
+        gap: 50px;
+        margin: 50px 70px;
+        align-self: start;
+    }
+    .contact-title h1{
+        font-size: 53px;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 50px;
+
+    }
+    .contact-left p{
+        font-size: 16px;
+    }
+    .contact-detail{
+        gap: 10px;
+    }
+    .contact-detail  img{
+        width: 25px;
+
+    }
+
+    .contact-right label{
+        font-size: 20px;
+    }
+    .contact-right input{
+        width: 90%;
+        font-size: 20px;
+
+    }
+    .contact-right textarea{
+        width: 95%;
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 560px) {
+    .contact{
+        gap: 50px;
+        margin: 40px 50px;
+        align-self: start;
+    }
+    .contact-title h1{
+        font-size: 47px;
+    }
+    .contact-title img{
+        top:30px;
+        left:70px;
+        width: 170px;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 30px;
+        margin-top: 40px;
+
+    }
+    .contact-left p{
+        font-size: 15px;
+    }
+    .contact-detail{
+        gap: 10px;
+    }
+    .contact-detail  img{
+        width: 27px;
+        height: 30px;
+
+    }
+
+   
+    .contact-right input{
+        height: 55px;
+
+    }
+   
+
+}
+
+
+

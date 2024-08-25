@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     background: linear-gradient(267deg,#DA7C25 0.36%, #af6ec1);
-    padding: 20px 30px; 
+    padding: 20px 30px 60px 5px; 
     align-items: center;
     height: 116px;
 
@@ -17,14 +17,16 @@
 }
 .footer-logo h1{
     position: relative;
-    font-size: 50px;
+    font-size: 40px;
     color: #e2bcc4;
 }
 
 .footer-logo img {
     position: absolute;
-    left: 70px;
+    left: 0px;
     margin-top: 40px;
+    width: 160px;
+    transform: scaleX(-1);
     
 }
 
@@ -38,6 +40,58 @@
 }
 .footer-contact-logo a{
     margin: 10px;
+}
+
+/* Media QUery */
+
+@media (max-width: 850px) {
+    .footer{
+        background: none;
+    }
+    .footer-logo h1{
+        position: relative;
+        font-size: 30px;
+        color: white;
+    }
+    .footer-logo img{
+        position: absolute;
+        left: 10px;
+        margin-top: 15px;
+        border-radius: 10px;
+        transform: scaleX(-1);
+        width: 140px;
+        z-index: -1;
+    }
+    .footer-contact-logo img{
+        width: 30px;
+    }
+    .footer h3{
+        font-size: 20px;
+        color:#d8b2ba
+    }
+
+}
+
+
+@media (max-width: 560px) {
+    
+    .footer-logo h1{
+        position: relative;
+        font-size: 20px;
+        color: white;
+    }
+    .footer-logo img{
+        left: 0px;
+        width: 90px;
+    }
+    .footer-contact-logo img{
+        width: 20px;
+    }
+    .footer h3{
+        font-size: 18px;
+        color:#d8b2ba
+    }
+
 }
 
 

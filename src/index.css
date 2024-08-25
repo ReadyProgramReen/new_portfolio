@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 
 }
 
@@ -10,4 +11,20 @@ body{
   color: #976666;
   font-family: "Outfit", sans-serif;
 
+}
+
+a{
+  color: inherit; /* Or specify your desired color */
+  text-decoration: none; /* Remove underline */
+
+}
+
+a:hover {
+  color: inherit; /* Or specify a different color for hover state */
+  text-decoration: none; /* Optional: Add underline on hover if desired */
+}
+
+/* Link styles when visited */
+a:visited {
+  color: inherit; /* Or specify your desired color */
 }

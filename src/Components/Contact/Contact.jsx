@@ -49,19 +49,21 @@ const Contact = () => {
                 <div className="contact-details">
                     <div className="contact-detail">
                         <img src={mail_icon} alt="" />
-                        <p>Maureenekeugo1@gmail.com</p>
+                        <p>Ekeugomaureen1@gmail.com</p>
 
                     </div>
                     <div className="contact-detail">
-                        <a href="https://www.linkedin.com/in/maureen-ekeugo-25139321b/">
+                        <a href="https://www.linkedin.com/in/maureen-ekeugo-25139321b/" target="_blank" rel="noopener noreferrer">
                         <img src={linkedin_icon} alt="" />
-                        <p>linkedin.com/maureen-ekeugo/</p>
+                        <p>linkedin.com/maureen-ekeugo</p>
                         </a>
 
                     </div>
                     <div className="contact-detail">
+                        <a href="https://github.com/ReadyProgramReen" target="_blank" rel="noopener noreferrer">
                         <img src={github_icon} alt="" />
-                        <p>https://github.com/ReadyProgramReen</p>
+                        <p>github.com/ReadyProgramReen</p>
+                        </a>
 
                     </div>
                 </div>
@@ -70,7 +72,7 @@ const Contact = () => {
             {/* RIGHT SECTION */}
             <form onSubmit={onSubmit} className="contact-right">
                 <label >Company Name</label>
-                <input type="text" placeholder='Enter your name' name='name'/>
+                <input type="text" placeholder='Enter your name or company name ' name='name'/>
                 <label htmlFor="Your Email">Your Email</label>
                 <input type="email"  placeholder='Enter Your Email' name='email'/>
                 <label htmlFor="Write Your Message Here">Write Your Message Here</label>

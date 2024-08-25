@@ -20,7 +20,7 @@ const About = () => {
             <div className="about-right">
                 <div className="about-para">
                     <p>With three years of experience as a Full Stack Engineer, I’ve successfully collaborated with diverse clients to deliver innovative solutions and build impactful applications, always striving for excellence and client satisfaction.</p>
-                    <p>Driven by a passion for building and architecture, I transitioned into Full Stack Engineering to merge my love for design and problem-solving. </p>
+                    <p>Driven by a love for art and creativity, I transitioned into Full Stack Engineering to blend my passion for design with my problem-solving skills.</p>
                 </div>
 
                 <div className="about-skills"> 
@@ -40,10 +40,7 @@ const About = () => {
                         <p>Node JS</p>
                         <hr style={{width:'58%'}} />
                     </div>
-                    <div className="about-skill">
-                        <p>UX and UI</p>
-                        <hr style={{width:'40%'}} />
-                    </div>
+                   
                 </div>
 
             </div>
@@ -51,7 +48,7 @@ const About = () => {
         <div className="about-achievements">
             <div className="about-achievement">
                 <h1>3+</h1>
-                <p>YEARS of Experience</p>
+                <p>Years of Experience</p>
             </div>
             <hr />
             <div className="about-achievement">
@@ -61,7 +58,7 @@ const About = () => {
             <hr />
 
             <div className="about-achievement">
-                <h1>10+</h1>
+                <h1>5+</h1>
                 <p>Clients</p>
             </div>
         </div>

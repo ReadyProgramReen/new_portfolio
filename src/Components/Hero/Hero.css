@@ -9,7 +9,7 @@
 .hero img{
     margin-top: 80px;
     width: 180px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .hero h1{
@@ -70,3 +70,70 @@
     border: 3px solid #7c6c81;
 }
 
+/* Media QUery */
+
+@media(max-width:850px){
+    .hero img{
+        margin-bottom: 30px;
+        width: 160px;
+        border-radius: 50%;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero h1 span{
+        display: block;
+        font-size: 50px;
+    }
+
+    .hero p{
+        width: 90%;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+
+    }
+  
+
+}
+
+@media(max-width:560px){
+    .hero img{
+        margin-bottom: 20px;
+        width: 120px;
+        border-radius: 50%;
+    }
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero h1 span{
+        display: block;
+        font-size: 40px;
+    }
+
+    .hero p{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .hero-action{
+        gap: 16px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+    .hero-resume{
+        font-size: 14px;
+        padding:18px 30px;
+    }
+  
+
+}
