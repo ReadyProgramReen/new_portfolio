@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(267deg,#DA7C25 0.36%, #af6ec1);
+    padding: 20px 30px; 
+    align-items: center;
+    height: 116px;
+
+
+}
+
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-logo h1{
+    position: relative;
+    font-size: 50px;
+    color: #e2bcc4;
+}
+
+.footer-logo img {
+    position: absolute;
+    left: 70px;
+    margin-top: 40px;
+    
+}
+
+.footer h3{
+    font-size: 20px;
+}
+
+.footer-contact-logo img{
+        width: 40px;
+
+}
+.footer-contact-logo a{
+    margin: 10px;
+}
+
+
+
+
+

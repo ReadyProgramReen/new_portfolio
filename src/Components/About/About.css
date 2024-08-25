@@ -25,7 +25,13 @@
 .about-section{
     display: flex;
     gap: 80px;
+    margin-top: 50px;
 
+}
+
+.about-left img{
+    border-radius: 50px;
+    height: 250px;
 }
 
 .about-right{
