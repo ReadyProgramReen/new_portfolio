@@ -4,11 +4,38 @@ import theme_pattern from '../../assets/assets/theme_pattern.svg'
 import mail_icon from '../../assets/assets/mail_icon.svg'
 import github_icon from '../../assets/assets/github_icon.png'
 import linkedin_icon from '../../assets/assets/linkedin_icon.png'
+const accessKey = import.meta.env.VITE_ACCESS_KEY;
 
 
 
 
 const Contact = () => {
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key",accessKey);
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+          },
+          body: json
+        }).then((res) => res.json());
+    
+        if (res.success) {
+          console.log("Success", res);
+          alert(res.message)
+        }
+      };
+    
+
   return (
     <div id='Contact' className='contact'>
         <div className="contact-title">
@@ -41,7 +68,7 @@ const Contact = () => {
             </div>
 
             {/* RIGHT SECTION */}
-            <form  className="contact-right">
+            <form onSubmit={onSubmit} className="contact-right">
                 <label >Company Name</label>
                 <input type="text" placeholder='Enter your name' name='name'/>
                 <label htmlFor="Your Email">Your Email</label>
