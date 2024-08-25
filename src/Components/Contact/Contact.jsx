@@ -10,7 +10,7 @@ import linkedin_icon from '../../assets/assets/linkedin_icon.png'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='Contact' className='contact'>
         <div className="contact-title">
             <h1>Get in Touch</h1>
             <img src={theme_pattern} alt="" />

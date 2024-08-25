@@ -5,11 +5,33 @@
     margin: 20px 170px ;
 }
 
+.nav-logo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-logo h1{
+    position: relative;
+    font-size: 33px;
+    color: white;
+}
+
+.nav-logo img {
+    position: absolute;
+    left: 120px;
+    margin-top: 15px;
+    border-radius: 10px;
+    transform: scaleX(-1);
+    width: 160px;
+    z-index: -1;
+}
+
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 50px;
+    gap: 40px;
     font-size: 20px;
     color: white;
     font-weight: 500;
@@ -27,4 +49,21 @@
 
 .nav-connect:hover{
     transform: scale(1.05);
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
 }
